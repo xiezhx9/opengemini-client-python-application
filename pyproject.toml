@@ -1,11 +1,14 @@
 [project]
-name = "pypi-package-name"
+name = "opengemini-client-python-application"
 version = "0.0.1"
 readme = "README.md"
 
 requires-python = ">=3.9"
 
 dependencies = [
+    "opengemini-client-python>=0.1.0",
+    "langchain>=1.1.0",
+    "opendal>=0.46.0",
 ]
 
 [project.urls]
